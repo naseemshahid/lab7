@@ -31,11 +31,11 @@ int * generateRandomArray(int size) {
   if(size < 0) {
     return NULL;
   }
-  int randomArr[size];
+  int randomarry[size];
   for(int i=0; i<size; i++) {
-    randomArr[i] = rand() % 100;
+    randomarry[i] = rand() % 100;
   }
-  return randomArr;
+  return randomarry;
 }
 
 int getSum(int *arr, int size) {
