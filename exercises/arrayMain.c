@@ -34,14 +34,16 @@ for(int i=0;i<size;i++){
 
 scanf("%d",&array[i]);
 
+
+
 }
 
   
 
 
 //checking  function
-
-printf("\nMean of given array is : %.2lf",getMean(array,size));
+double x=getMean(array,size);
+printf("\nMean of given array is : %.2lf",x);
 
 //checking function
 
@@ -75,7 +77,7 @@ printf("\nResult size is %d and elements greator or equal than %d are : ",result
 
 for(int i=0;i<resultsize;i++){
 
-printf("%d ",ptr[i]);
+printf("%d\n ",ptr[i]);
 
 }
 
